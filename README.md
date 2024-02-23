@@ -19,7 +19,7 @@ Air Mouse is a human interface device leveraging a computer's camera to capture 
 
 ![Scroll Down](photos/Down.jpeg)
 *Scroll Down*
-
+   
 ## Tech Stack
 - **Server:**
   - Language: Python
@@ -30,4 +30,26 @@ Air Mouse is a human interface device leveraging a computer's camera to capture 
 - **Other Technologies:**
   - Computer Vision (OpenCV)
   - Version Control: Git
+  
+## Building and running the project:
+ ### Steps
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/crm-app.git
+   cd Air_mouse
+2. Install dependencies:
+    ```bash
+    pip install -r requirements.txt
+3. Install client dependencies, run the client:
+   ```bash
+   cd client
+   npm install
+   npm start
+4. In a separate terminal, run the server:
+   ```bash
+    cd ..
+    npm start
+5. Open your web browser and navigate to http://localhost:3000 to use Air Mouse.
+
+Note: Ensure that the server and client are running concurrently for the full functionality of the Air Mouse project.
   
