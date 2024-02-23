@@ -35,7 +35,7 @@ Air Mouse is a human interface device leveraging a computer's camera to capture 
  ### Steps
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/crm-app.git
+   git clone https://github.com/Kaviyarsan2004/Air_mouse.git
    cd Air_mouse
 2. Install dependencies:
     ```bash
